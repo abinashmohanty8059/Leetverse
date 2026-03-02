@@ -4,9 +4,9 @@ import { Youtube, Linkedin, Instagram, Github, ArrowUpRight } from 'lucide-react
 const Connect = () => {
     const socialLinks = [
         { name: 'GitHub', icon: <Github />, url: '#' },
-        { name: 'LinkedIn', icon: <Linkedin />, url: '#' },
-        { name: 'YouTube', icon: <Youtube />, url: '#' },
-        { name: 'Instagram', icon: <Instagram />, url: '#' },
+        { name: 'LinkedIn', icon: <Linkedin />, url: 'https://www.linkedin.com/company/leetverse/' },
+        { name: 'YouTube', icon: <Youtube />, url: 'https://www.youtube.com/@Leetverse' },
+        { name: 'Instagram', icon: <Instagram />, url: 'https://www.instagram.com/leetverse/' },
     ];
 
     return (
